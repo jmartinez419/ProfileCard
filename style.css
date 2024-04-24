@@ -1,0 +1,44 @@
+img {
+    border-radius: 15px;
+    width:200px;
+    height:200px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px rgba(0,0,0,10);
+}
+/* styling my body element */
+body{
+    font-family:'Franklin Gothic Medium';
+    background-color: rgb(107, 96, 237);
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+/* targeting my profile card */
+.profile-card{
+border-radius: 15px;
+background-color: #ffffff;
+box-shadow: 5px 5px 10px rgba(0,0,0,10);
+padding:20px;
+}
+
+h1{
+    color: black;
+    margin: 10px 0 5px 0;
+}
+
+p{
+    color: black;
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 15px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(107, 96,237);
+    border-radius: 5px;
+}
